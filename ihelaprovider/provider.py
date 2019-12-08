@@ -18,7 +18,7 @@ class iHelaProvider(OAuth2Provider):
         return str(data["id"])
 
     def extract_common_fields(self, data):
-        from pprint import pprint
+        # from pprint import pprint
 
         return dict(
             username=data["username"],
